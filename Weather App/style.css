@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif; 
+}
+.main {
+  
+    height:100vh;
+    padding-top:5em;
+    text-align:center;
+    
+   background-image: url(cloudThree-min.jpeg);
+}
+.heading{
+    color: #0047b3;
+    font-size:3.5em;
+}
+#mytext{
+    padding: 15px;
+    width: 250px;
+    margin: 14px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 7px;
+    border: 1px solid #000099;
+}
+.btn{
+    padding: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #0052cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#cityName{
+    color: #002966;
+    font-size: 34px;
+}
+#weatherType{
+    color: #1a1aff;
+    font-size: 44px;
+}
+#cityName, #weatherType{
+    margin: 5px;
+}
+h3{
+    color: #000066;
+}
+span{
+    color: #e60000;
+}
